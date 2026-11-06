@@ -22,7 +22,7 @@ public class Hoja4_Ej3 {
         do{
         System.out.println("Area(1) o Volumen(2)");
         opcion = sc.nextByte();
-        }while(opcion > 2 && opcion < 1);
+        }while(opcion > 2 || opcion < 1);
         
         calculo(opcion, radio, altura);
     }
