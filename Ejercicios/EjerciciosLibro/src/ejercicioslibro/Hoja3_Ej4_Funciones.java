@@ -39,6 +39,6 @@ public class Hoja3_Ej4_Funciones {
         
         if(exponente == 0) resultado = 1;
         
-        return(resultado);
+        return resultado;
     }
 }
