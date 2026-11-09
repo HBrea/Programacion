@@ -47,7 +47,7 @@ public class Hoja4_Ej4 {
      * @param altura 
      */
     static void calcularArea(double radio, double altura){
-        System.out.print("Area: " + (2*3.14*radio*(altura+radio)));
+        System.out.print("Area: " + (2*Math.PI*radio*(altura+radio)));
     }
     
     /**
@@ -56,6 +56,6 @@ public class Hoja4_Ej4 {
      * @param altura 
      */
     static void calcularVolumen(double radio, double altura){
-        System.out.print("Volumen: " + 3.14*radio*radio*altura);   
+        System.out.print("Volumen: " + Math.PI*radio*radio*altura);   
     }
 }

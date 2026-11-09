@@ -28,7 +28,7 @@ public class Hoja4_Ej3 {
     }
     
     /**
-     * git
+     * 
      * @param opcion 
      * @param radio
      * @param altura 
@@ -37,9 +37,9 @@ public class Hoja4_Ej3 {
         
         switch(opcion){
             case 1 ->//Area
-                System.out.print("Area: " + (2*3.14*radio*(altura+radio)));
+                System.out.print("Area: " + (2*Math.PI*radio*(altura+radio)));
             case 2 ->//Volumen
-                System.out.print("Volumen: " + 3.14*radio*radio*altura);                
+                System.out.print("Volumen: " + Math.PI*radio*radio*altura);                
         }
     }
 }
