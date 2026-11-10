@@ -14,7 +14,7 @@ public class Hoja4_Ej6 {
         char caracter;
         Scanner sc = new Scanner(System.in);
         
-        caracter = sc.next();
+        caracter = sc.next().charAt(0);
         System.out.print("¿Es la letra vocal?: " + comprobarVocal(caracter));
     }
     
